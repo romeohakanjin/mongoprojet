@@ -1,0 +1,21 @@
+.img-add-annonce{
+	float: right;
+}
+
+.error-form{
+	color: red;
+}
+
+.reservationButton{
+	float : right;
+}
+
+.info-perso{
+	background: burlywood;
+	font-weight: bold;
+	text-align: center;
+}
+
+input[type=submit] {
+	float : right;
+}

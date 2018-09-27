@@ -1,7 +1,7 @@
 <?php
     define('ROOT', __DIR__);
 
-    //Parametre par défaut
+    // Default parameters
     if (isset($_GET['p'])) {
         $p = $_GET['p'];
     }
@@ -9,10 +9,10 @@
         $p = 'map';
     }
 
-    //Stocker l'affichage
+    // Keep the page display
     ob_start();
 
-    //Redirection en fonction du paramètre
+    // Redirection
     switch ($p) {
         case 'map':
             require ROOT.'/app/views/content/map.php';
@@ -25,7 +25,7 @@
             break;
         default:
             //vers 404 not found http
-            require ROOT.'/app/views/404.html';
+            require ROOT.'/app/views/404.php';
             break;
     }
 

@@ -16,15 +16,15 @@ try {
             $libelle = "";
             $name = "";
 
-            try{
+            if (!empty($document->fields->espece)){
                 $name = $document->fields->espece;
-            }catch (Exception $exception){
+            }else{
                 $name = "Not defined";
             }
 
-            try{
-                $libelle = $document->fields->libellefrancais;
-            }catch (Exception $exception){
+            if (!empty($document->fields->libelle)){
+                $libelle = $document->fields->libelle;
+            }else{
                 $libelle = "Not defined";
             }
 
@@ -47,26 +47,6 @@ try {
     ?>
 
     <div id='map' style='width: 100%; height: 600px;'></div>
-
-    <style>
-        .marker {
-            background-image: url('public/images/mapbox-icon.png');
-            background-size: cover;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            cursor: pointer;
-        }
-
-        .mapboxgl-popup {
-            max-width: 200px;
-        }
-
-        .mapboxgl-popup-content {
-            text-align: center;
-            font-family: 'Open Sans', sans-serif;
-        }
-    </style>
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoianVuemk1IiwiYSI6ImNqbWl5OW1rdzA5eGwzb2t3bnNnZ2cxZjIifQ.6U74UPVZf4ouBLUDxcxfww';
 
@@ -95,14 +75,33 @@ try {
         });
 
     </script>
+    <style>
+        .marker {
+            background-image: url('public/images/mapbox-icon.png');
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .mapboxgl-popup {
+            max-width: 200px;
+        }
+
+        .mapboxgl-popup-content {
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
     <?php
 
 } catch (MongoDB\Driver\Exception\Exception $e) {
-    /*$filename = basename(__FILE__);
+    $filename = basename(__FILE__);
     echo "The $filename script has experienced an error.\n";
     echo "It failed with the following exception:\n";
     echo "Exception:", $e->getMessage(), "\n";
     echo "In file:", $e->getFile(), "\n";
-    echo "On line:", $e->getLine(), "\n";*/
+    echo "On line:", $e->getLine(), "\n";
 }
 ?>

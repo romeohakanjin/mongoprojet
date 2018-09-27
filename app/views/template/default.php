@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="rh-sl-fc-jx">
     <meta name="author" content="rh-sl-jx">
 
@@ -36,6 +35,7 @@
                     <li id="mappage"><a href="index.php?p=map">Map</a></li>
                     <li id="mapbox"><a href="index.php?p=mapbox">MapBox</a></li>
                     <li id="statspage"><a href="index.php?p=stats">Stats</a></li>
+                    <li id="search"><a href="index.php?p=recherches">Recherche</a></li>
                 </ul>
             </nav>
         </header>
@@ -132,6 +132,7 @@
 <script src="public/js/util.js"></script>
 <script src="public/js/main.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 
 </body>
 </html>

@@ -6,7 +6,7 @@
         $p = $_GET['p'];
     }
     else{
-        $p = 'home';
+        $p = 'map';
     }
 
     //Stocker l'affichage
@@ -14,8 +14,11 @@
 
     //Redirection en fonction du paramètre
     switch ($p) {
-        case 'home':
+        case 'map':
             require ROOT.'/app/views/content/map.php';
+            break;
+        case 'mapbox':
+            require ROOT.'/app/views/content/mapBox.php';
             break;
         case 'stats':
             require ROOT.'/app/views/content/stats.php';

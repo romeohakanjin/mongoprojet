@@ -36,6 +36,7 @@
     ////////////////////////////////////////////////
     // REQUETE POUR NOMBRE ARBRE PAR TRANCHE HAUTEUR
     ////////////////////////////////////////////////
+    ini_set('memory_limit', '-1');
 
     // Entre 0 et 5
     $filter1 = [

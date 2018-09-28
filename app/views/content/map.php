@@ -23,7 +23,7 @@
     $customMarkersArbresJson = json_encode($customMarkersArbres);
 ?>
 
-<h3>Arbres</h3>
+<h3>Liste des arbres de Paris</h3>
 
 <div id="map" style="width: 100%; height: 600px;"></div>
 
@@ -39,13 +39,16 @@
         // Add markers to the map
         var markers = customMarkersArbresPosition.map(function(markerArbrePosition, i) {
             return new google.maps.Marker({
-                position: markerArbrePosition
+                position: markerArbrePosition,
+                label: "japonica"
             });
         });
 
         // Add a marker clusterer to manage the markers.
-        var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+        var markerCluster = new MarkerClusterer(map, markers, {
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
+                name: "fdsf"
+            });
 
         /*var geocoder = new google.maps.Geocoder();
 

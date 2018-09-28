@@ -53,43 +53,35 @@
             <div class="row">
                 <div class="3u 6u(medium) 12u$(small)">
                     <section class="widget links">
-                        <h3>Random Stuff</h3>
-                        <ul class="style2">
-                            <li><a href="#">Etiam feugiat condimentum</a></li>
-                            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-                            <li><a href="#">Sed porttitor cras in erat nec</a></li>
-                            <li><a href="#">Felis varius pellentesque potenti</a></li>
-                            <li><a href="#">Nullam scelerisque blandit leo</a></li>
-                        </ul>
+                        <h3>La gestion des arbres à Paris</h3>
+                            <p>Tout au long de l’année, la Mairie de Paris assure la surveillance du patrimoine arboré, le remplacement des arbres dépérissant et l’installation de nouvelles plantations.
+                                <br/><br/>
+                            Le cycle de vie d’un arbre est identique en milieu naturel et en milieu urbain, toutefois, les contraintes spécifiques de la ville exigent un accompagnement attentif de chaque arbre et le renouvellement des sujets dépérissant.</p>
                     </section>
                 </div>
                 <div class="3u 6u$(medium) 12u$(small)">
                     <section class="widget links">
-                        <h3>Random Stuff</h3>
-                        <ul class="style2">
-                            <li><a href="#">Etiam feugiat condimentum</a></li>
-                            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-                            <li><a href="#">Sed porttitor cras in erat nec</a></li>
-                            <li><a href="#">Felis varius pellentesque potenti</a></li>
-                            <li><a href="#">Nullam scelerisque blandit leo</a></li>
-                        </ul>
+                        <h3>Avant la plantation</h3>
+                        <p>Les arbres sont cultivés en pépinière en moyenne 8 à 10 ans avant d’être plantés en ville.
+                            <br/><br/>
+                            Pour planter l’arbre, une fosse de plantation doit être creusée et remplie de terre végétale.
+                            <br/><br/>
+                            e volume de la fosse de plantation est d’environ 12 mètres cubes pour permettre un développement satisfaisant du système racinaire et une alimentation en eau et en éléments nutritifs appropriées à sa croissance.
+                        </p>
                     </section>
                 </div>
                 <div class="3u 6u(medium) 12u$(small)">
                     <section class="widget links">
-                        <h3>Random Stuff</h3>
-                        <ul class="style2">
-                            <li><a href="#">Etiam feugiat condimentum</a></li>
-                            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-                            <li><a href="#">Sed porttitor cras in erat nec</a></li>
-                            <li><a href="#">Felis varius pellentesque potenti</a></li>
-                            <li><a href="#">Nullam scelerisque blandit leo</a></li>
-                        </ul>
+                        <h3>La plantation et les 3 premières années de croissance</h3>
+                        <p>Une fois planté, des soins sont apportés à l’arbre pendant 3 ans pour garantir une bonne reprise et un développement harmonieux : il est arrosé régulièrement (environ 100 litres d’eau tous les 15 jours de mars à septembre) ; un tuteur est installé pour lui assurer une bonne stabilité le temps que les racines d’ancrages soient suffisamment développées, et des tailles de formation sont réalisées pour lui donner progressivement sa silhouette d’arbre adulte.
+                            <br/><br/>
+                            Après ces 3 premières années, l’arbre en pleine croissance ne nécessite plus de soin particulier.
+                        </p>
                     </section>
                 </div>
                 <div class="3u 6u$(medium) 12u$(small)">
                     <section class="widget contact last">
-                        <h3>Contact Us</h3>
+                        <h3>Contactez-nous</h3>
                         <ul>
                             <li><a href="#" class="icon fa-twitter"><span
                                         class="label">Twitter</span></a></li>
@@ -114,8 +106,7 @@
                 <div class="12u">
                     <div id="copyright">
                         <ul class="menu">
-                            <li>&copy; Untitled. All rights reserved</li>
-                            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            <li>&copy; 2018. All rights reserved</li>
                         </ul>
                     </div>
                 </div>

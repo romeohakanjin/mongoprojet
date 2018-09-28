@@ -23,6 +23,9 @@
         case 'stats':
             require ROOT.'/app/views/content/stats.php';
             break;
+        case 'recherche':
+            require ROOT.'/app/views/content/recherche.php';
+            break;
         default:
             //vers 404 not found http
             require ROOT.'/app/views/404.php';

@@ -22,8 +22,8 @@ try {
                 $name = "Not defined";
             }
 
-            if (!empty($document->fields->libelle)){
-                $libelle = $document->fields->libelle;
+            if (!empty($document->fields->libellefrancais)){
+                $libelle = $document->fields->libellefrancais;
             }else{
                 $libelle = "Not defined";
             }

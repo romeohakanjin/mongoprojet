@@ -39,16 +39,14 @@
         // Add markers to the map
         var markers = customMarkersArbresPosition.map(function(markerArbrePosition, i) {
             return new google.maps.Marker({
-                position: markerArbrePosition,
-                label: "japonica"
+                position: markerArbrePosition
             });
         });
 
         // Add a marker clusterer to manage the markers.
         var markerCluster = new MarkerClusterer(map, markers, {
-                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
-                name: "fdsf"
-            });
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+        });
 
         /*var geocoder = new google.maps.Geocoder();
 
@@ -73,7 +71,7 @@
 load Api, async to allow the browser to render the page while the api loads, then call initMap()
 -->
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAneEQ-MuKxY4xQOXUwv2gY1DIrhuHh-Jo&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiyDb4yOIWZ6eSBZyRYpCUBA8Ex50NDh8&callback=initMap">
 </script>
 
 <?php

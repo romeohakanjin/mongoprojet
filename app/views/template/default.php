@@ -27,7 +27,7 @@
         <header id="header" class="container">
             <div id="logo">
                 <h1>
-                    MongoProject
+                    Arbre de Paris
                 </h1>
             </div>
             <nav id="nav">
@@ -35,7 +35,7 @@
                     <li id="mappage"><a href="index.php?p=map">Map</a></li>
                     <li id="mapbox"><a href="index.php?p=mapbox">MapBox</a></li>
                     <li id="statspage"><a href="index.php?p=stats">Stats</a></li>
-                    <li id="search"><a href="index.php?p=recherches">Recherche</a></li>
+                    <li id="search"><a href="index.php?p=recherche">Recherche</a></li>
                 </ul>
             </nav>
         </header>
@@ -95,8 +95,8 @@
                                         class="label">Pinterest</span></a></li>
                         </ul>
                         <p>
-                            1234 Fictional Road<br /> Nashville, TN 00000<br /> (800)
-                            555-0000
+                            48 Rue Camille Desmoulins<br /> Issy-les-Moulineaux, 92130<br /> +(33)1
+                            41 33 03 00
                         </p>
                     </section>
 
